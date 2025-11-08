@@ -98,7 +98,28 @@
 - Pitch structure (TOON format)
 - Progress confidence scoring
 
-### 5. [Comparison: Rust vs TypeScript](rust-vs-typescript-comparison.md) ⭐ DECISION GUIDE
+### 5. [Test-Driven Development (TDD)](tdd-test-driven-development.md) ⭐ QUALITY
+**Building reliable AI agents with comprehensive testing**
+
+**What you'll master:**
+- Red-Green-Refactor cycle in Rust
+- Unit, integration, and E2E testing
+- Property-based testing with proptest
+- Mutation testing for robust code
+- 90%+ coverage requirements
+- TDD integration with Shape Up cycles
+- CI/CD testing pipelines
+- Test organization and architecture
+
+**Key implementations:**
+- AAA (Arrange-Act-Assert) pattern
+- Test data builders
+- Mocks and stubs with mockall
+- Property testing for edge cases
+- Coverage tracking with tarpaulin
+- GitHub Actions test workflows
+
+### 6. [Comparison: Rust vs TypeScript](rust-vs-typescript-comparison.md) ⭐ DECISION GUIDE
 **Comprehensive analysis proving Rust superiority**
 
 **What you'll discover:**
@@ -220,6 +241,14 @@ Improvement: 30x smaller 📦
 - **Turso vec0** - Integrated vector search
 - **SIMD** - Hardware acceleration
 
+### Testing & Quality
+- **Test-Driven Development** - Red-Green-Refactor cycle
+- **Property-based testing** - Proptest for edge cases
+- **Mutation testing** - Cargo mutants for code quality
+- **Coverage tracking** - Tarpaulin (90%+ target)
+- **CI/CD integration** - GitHub Actions automated testing
+- **Mocking** - Mockall for test isolation
+
 ---
 
 ## 📊 Feature Comparison Matrix
@@ -241,6 +270,10 @@ Improvement: 30x smaller 📦
 │ Single Binary          │ ❌          │ ✅           │
 │ Zero-Copy              │ ❌          │ ✅           │
 │ SIMD Support           │ ❌          │ ✅           │
+│ Test-Driven Dev        │ ⚠️          │ ✅           │
+│ Property Testing       │ ❌          │ ✅           │
+│ Mutation Testing       │ ❌          │ ✅           │
+│ Coverage Tools         │ ⚠️          │ ✅           │
 │ Learning Curve         │ Easy        │ Steep        │
 │ Performance            │ Good        │ Excellent    │
 │ Memory Usage           │ High        │ Low          │
